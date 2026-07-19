@@ -33,7 +33,7 @@ form:
       type: text
       label: Bot User-Agent Signatures
       help: "Comma-separated list of User-Agent substrings to match (case-insensitive)."
-      placeholder: "gptbot,chatgpt-user,google-extended,claudebot,perplexitybot..."
+      placeholder: "gptbot,chatgpt,openai,googlebot,google-agent,gemini,claude..."
       validate:
         required: true
 

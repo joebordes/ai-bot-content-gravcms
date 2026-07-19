@@ -33,7 +33,7 @@ The default configuration is stored in `user/plugins/ai-bot-responder/ai-bot-res
 
 ```yaml
 enabled: true
-bots: 'gptbot,chatgpt-user,google-extended,googleother,claudebot,perplexitybot,cohere-ai,meta-externalagent,oai-searchbot,applebot-extended,gemini'
+bots: 'gptbot,chatgpt,openai,googlebot,google-agent,googleother,google-extended,gemini,claude,anthropic,perplexity,cohere,meta-externalagent,applebot'
 content: |
   {
     "site": "yourdomain.com",

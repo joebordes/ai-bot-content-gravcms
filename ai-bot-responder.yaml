@@ -1,5 +1,5 @@
 enabled: true
-bots: 'gptbot,chatgpt-user,google-extended,googleother,google-agent,claudebot,perplexitybot,cohere-ai,meta-externalagent,oai-searchbot,applebot-extended,gemini'
+bots: 'gptbot,chatgpt,openai,googlebot,google-agent,googleother,google-extended,gemini,claude,anthropic,perplexity,cohere,meta-externalagent,applebot'
 content: |
   {
     "course": {

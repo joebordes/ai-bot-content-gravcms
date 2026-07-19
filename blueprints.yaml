@@ -7,9 +7,9 @@ icon: robot
 author:
   name: Joe Bordes
   email: joe@tsolucio.com
-homepage: https://www.tsolucio.com/
+homepage: https://github.com/joebordes/ai-bot-content-gravcms
 keywords: ai, bot, chatgpt, gemini, crawler, responder, json
-bugs: https://www.tsolucio.com/
+bugs: https://github.com/joebordes/ai-bot-content-gravcms
 license: MIT
 
 dependencies:

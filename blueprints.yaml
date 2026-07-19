@@ -1,0 +1,46 @@
+name: AI Bot Responder
+type: plugin
+slug: ai-bot-responder
+version: 1.0.0
+description: "Detects AI bots and returns a pre-configured structured JSON payload to help them ingest page content accurately."
+icon: robot
+author:
+  name: Joe Bordes
+  email: joe@tsolucio.com
+homepage: https://www.tsolucio.com/
+keywords: ai, bot, chatgpt, gemini, crawler, responder, json
+bugs: https://www.tsolucio.com/
+license: MIT
+
+dependencies:
+    - { name: grav, version: '>=1.7.0' }
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Status
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    bots:
+      type: text
+      label: Bot User-Agent Signatures
+      help: "Comma-separated list of User-Agent substrings to match (case-insensitive)."
+      placeholder: "gptbot,chatgpt-user,google-extended,claudebot,perplexitybot..."
+      validate:
+        required: true
+
+    content:
+      type: textarea
+      label: AI Bot JSON Content
+      help: "The structured JSON payload returned to detected bots."
+      rows: 25
+      validate:
+        required: true
